@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Roboto+Mono:wght@300&display=swap');
+
+body {
+  font-family: 'Pacifico', cursive;
+}
+.container {
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hex-colors {
+  text-align: center;
+}
+
+.hex-colors h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  animation: colorChanger 5s infinite alternate;
+}
+
+.hex-colors h2 {
+  font-size: 1rem;
+  margin-top: 15%;
+}
+
+@keyframes colorChanger {
+  0% {
+    color: indigo;
+  }
+  10% {
+    color: black;
+  }
+  20% {
+    color: crimson;
+  }
+  30% {
+    color: cadetblue;
+  }
+  40% {
+    color: darkmagenta;
+  }
+  50% {
+    color: teal;
+  }
+  60% {
+    color: greenyellow;
+  }
+  70% {
+    color: tomato;
+  }
+  80% {
+    color: orangered;
+  }
+  90% {
+    color: blueviolet;
+  }
+  100% {
+    color: cyan;
+  }
+}
