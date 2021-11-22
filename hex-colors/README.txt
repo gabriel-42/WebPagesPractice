@@ -1,0 +1,1 @@
+Second project of the exercises, meant to create a page where the interaction button change the colors of the background and gives the hex code for the color.
