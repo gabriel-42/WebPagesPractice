@@ -1,3 +1,26 @@
 body {
-  background: cyan !important;
+  background: #fa6900;
+}
+.container {
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+}
+.Quotes {
+  border: 10px solid #69d2e7;
+  width: 900px;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  color: #f38630;
+  background-color: #a7d8d8;
+}
+#theQuote,
+#author {
+  font-size: 1.5rem;
 }
