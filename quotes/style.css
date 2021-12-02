@@ -7,7 +7,7 @@ body {
   display: flex;
   text-align: center;
 }
-.Quotes {
+.quotes {
   border: 10px solid #69d2e7;
   width: 900px;
   height: 450px;
@@ -20,7 +20,7 @@ body {
   color: #f38630;
   background-color: #a7d8d8;
 }
-#theQuote,
-#author {
+.quotes p,
+.quotes h3 {
   font-size: 1.5rem;
 }
